@@ -1,0 +1,27 @@
+languages = ['thai', 'english', 'spanish', 'italian']
+print(languages)
+
+print(f"\nlanguages after insert")
+print(languages.insert (3, 'chinese'))
+
+languages.append ('german')
+print(f"\nlanguages with a new language appeneded")
+
+print(f"\nlanguages sorted in alphabetical order") 
+print(languages.sort())
+
+
+print(f"\nlanguages sorted in reverse alphabetical")
+print(languages.sort(reverse=True))
+
+print(languages)
+
+#print(f"\n udpated languages: ")
+#print(languages.pop(3))
+
+del(languages[1])
+print(f"\nLanguage 0 has been deleted")
+print(languages)
+
+num_languages = len(languages)
+print(num_languages)
