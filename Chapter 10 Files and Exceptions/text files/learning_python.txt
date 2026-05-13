@@ -1,0 +1,3 @@
+In python you can write for loops that will repeat a set of code for all items in a list for example
+In python you can build classes that store attributes
+In python you can make an object of a class to call a method from that class
